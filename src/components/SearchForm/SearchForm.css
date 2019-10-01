@@ -1,0 +1,27 @@
+.searchForm {
+  align-items: center;
+  display: flex;
+  height: 10%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.searchInput {
+  border-radius: 4px;
+  border: 2px solid black;
+  font-size: 18px;
+  height: 50%;
+  margin-left: 30px;
+  padding-left: 10px;
+  width: 50%;
+}
+
+.searchButton {
+  background-color: papayawhip;
+  border-radius: 4px;
+  border: 2px solid black;
+  font-size: 18px;
+  height: 50%;
+  margin-right: 30px;
+  width: 30%;
+}

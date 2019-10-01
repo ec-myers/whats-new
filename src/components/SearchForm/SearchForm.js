@@ -4,8 +4,8 @@ import './SearchForm.css';
 const SearchForm = () => {
   return (
     <form className="searchForm">
-      <input placeholder="Search for news"></input>
-      <button></button>
+      <input className="searchInput" type="text" placeholder="Search for news"></input>
+      <button className="searchButton">Search</button>
     </form>
   )
 }
