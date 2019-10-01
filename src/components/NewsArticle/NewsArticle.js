@@ -1,14 +1,13 @@
 import React from 'react';
 import './NewsArticle.css';
 
-const NewsArticle = props => {
-  console.log(props)
+const NewsArticle = article => {
   return (
     <article className="newsArticle">
-      <img />
-      <h1></h1>
-      <body></body>
-      <footer>
+      <img className="articleName" />
+      <h3 className="articleTitle">{article.title}</h3>
+      <body className="articleBody">{article.description}</body>
+      <footer className="articleFooter">
         <a></a>
       </footer>
     </article>
