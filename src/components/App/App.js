@@ -19,8 +19,10 @@ class App extends Component {
     return (
       <div className="app">
         <Menu />
-        <SearchForm />
-        <NewsContainer {...this.state} />
+          <div className="content-main">
+            <SearchForm />
+            <NewsContainer {...this.state} />
+        </div>
       </div>
     );
   }
