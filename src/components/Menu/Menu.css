@@ -1,0 +1,22 @@
+.menu {
+  width: 20%;
+  display:flex;
+  flex-direction: column;
+}
+
+.menu-title {
+  font-size: 24px;
+  padding: 10px;
+}
+.menu-button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.menu-button:hover {
+  background-color: papayawhip;
+}

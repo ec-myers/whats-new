@@ -4,12 +4,12 @@ import './Menu.css'
 const Menu = () => {
   return (
     <aside className="menu">
-      <h1>What's New</h1>
-        <button>Local News</button>
-        <button>Technology</button>
-        <button>Entertainment</button>
-        <button>Science</button>
-        <button>Health</button>
+      <h1 className="menu-title">What's New</h1>
+        <button className="menu-button">Local News</button>
+        <button className="menu-button">Technology</button>
+        <button className="menu-button">Entertainment</button>
+        <button className="menu-button">Science</button>
+        <button className="menu-button">Health</button>
     </aside>
   )
 }
