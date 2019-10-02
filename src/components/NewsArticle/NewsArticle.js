@@ -4,11 +4,13 @@ import './NewsArticle.css';
 const NewsArticle = article => {
   return (
     <article className="newsArticle">
-      <img className="articleName" />
-      <h3 className="articleTitle">{article.title}</h3>
-      <body className="articleBody">{article.description}</body>
+      <div className="articleImageDiv">
+        <img className="articleImage" src={article.img} alt="article" />
+      </div>
+      <h3 className="articleTitle">{article.headline}</h3>
+      <p className="articleBody">{article.description}</p>
       <footer className="articleFooter">
-        <a></a>
+        <a href={article.url} target="_blank">Read the Full Story</a>
       </footer>
     </article>
   )
