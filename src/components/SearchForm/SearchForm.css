@@ -1,16 +1,16 @@
 .searchForm {
   align-items: center;
   display: flex;
-  height: 10%;
   justify-content: space-between;
   width: 100%;
+  padding: 15px 0 15px 0;
 }
 
 .searchInput {
   border-radius: 4px;
   border: 2px solid black;
   font-size: 18px;
-  height: 50%;
+  height: 35px;
   margin-left: 30px;
   padding-left: 10px;
   width: 50%;
@@ -21,7 +21,7 @@
   border-radius: 4px;
   border: 2px solid black;
   font-size: 18px;
-  height: 50%;
+  height: 35px;
   margin-right: 30px;
   width: 30%;
 }

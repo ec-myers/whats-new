@@ -2,5 +2,29 @@
   border-radius: 4px;
   border: 2px solid black;
   box-sizing: border-box;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.articleImageDiv {
+  height: 265px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.articleImage {
+  width: 100%;
+  transform: translateY(-30px);
+}
+
+.articleBody {
+  margin: 10px;
+}
+
+.articleFooter {
+  background-color: papayawhip;
+  height: 30px;
+  padding: 5px;
+  max-width: 100%;
 }
