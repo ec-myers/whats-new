@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsContainer should match the snapshot 1`] = `
+<section
+  className="newsContainer"
+>
+  <NewsArticle
+    description="The image was captured by NASA's Lunar Reconnaissance Orbiter (LRO) on Sept. 17 as it flew over the targeted landing site of India's Chandrayaan-2 mission."
+    headline="India's Lost Moon Lander Is Somewhere in This Photo"
+    img="https://cdn.mos.cms.futurecdn.net/FsUeVGmY89BWeb36U8cUj5-650-80.jpg"
+    key="0"
+    url="https://www.livescience.com/india-moon-landing-site-nasa-photo.html"
+  />
+  <NewsArticle
+    description="A North Carolina man has died after getting an infection often associated with shellfish, state health officials say."
+    headline="Man dies after getting infection linked to shellfish, North Carolina officials say"
+    img="https://www.newsobserver.com/entertainment/restaurants/o6w6n7/picture184859643/alternates/FREE_768/MAIN%20OPTION%202:%20OYSTERS"
+    key="1"
+    url="https://www.bnd.com/news/nation-world/national/article235549897.html"
+  />
+</section>
+`;

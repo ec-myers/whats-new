@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsArticle should match the snapshot 1`] = `
+<article
+  className="newsArticle"
+>
+  <div
+    className="articleImageDiv"
+  >
+    <img
+      alt="article"
+      className="articleImage"
+      src="https://cdn.mos.cms.futurecdn.net/FsUeVGmY89BWeb36U8cUj5-650-80.jpg"
+    />
+  </div>
+  <h3
+    className="articleTitle"
+  >
+    India's Lost Moon Lander Is Somewhere in This Photo
+  </h3>
+  <p
+    className="articleBody"
+  >
+    The image was captured by NASA's Lunar Reconnaissance Orbiter (LRO) on Sept. 17 as it flew over the targeted landing site of India's Chandrayaan-2 mission.
+  </p>
+  <footer
+    className="articleFooter"
+  >
+    <a
+      href="https://www.livescience.com/india-moon-landing-site-nasa-photo.html"
+      target="_blank"
+    >
+      Read the Full Story
+    </a>
+  </footer>
+</article>
+`;
