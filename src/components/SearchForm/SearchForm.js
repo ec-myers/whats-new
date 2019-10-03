@@ -13,8 +13,7 @@ class SearchForm extends Component {
     this.setState({ searchInput: event.target.value });
   }
   
-  handleClick = (event) => {
-    event.preventDefault();
+  handleClick = () => {
     const searchText = this.state.searchInput.toLowerCase();
     this.props.displaySearchResults(searchText);
     this.setState({ searchInput: "" });
@@ -33,6 +32,7 @@ class SearchForm extends Component {
         />       
         <button 
           className="searchButton" 
+          type="button"
           onClick={event => this.handleClick(event)}>Search
         </button>
       </form>
