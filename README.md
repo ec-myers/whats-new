@@ -3,7 +3,7 @@
 What's New is an application designed to display your current news. This application was built with `create-react-app` and is my first introduction to developing with the React framework.
 
 ### Summary
-The focus of this project is on understanding how to pass information through props, break an application down into logical componenets and write organized JSX. It is also an introduction to testing in the React framework. Snapshot tests, as well as testing of methods, and changes in state, were utilized.
+The focus of this project is on understanding how to pass information through props, break an application down into logical componenets and write organized JSX. It is also an introduction to testing in the React framework. Snapshot tests, as well as testing of methods, and changes in state, were utilized. Trello was used for project management throughout the development process, view the board [here](https://trello.com/b/7HSjTM0F/whats-new).
 
 ### Languages & Technologies Used
 
