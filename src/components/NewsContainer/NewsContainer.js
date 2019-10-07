@@ -3,7 +3,6 @@ import './NewsContainer.css';
 import NewsArticle from '../NewsArticle/NewsArticle';
 
 const NewsContainer = props => {
-  console.log(props)
   const newsData = props.news.map((article, i) => {
     return <NewsArticle key={i}
       headline={article.headline}
