@@ -23,18 +23,22 @@ class App extends Component {
   }
 
   changeNewsFeed = (event) => {
-    this.setState({ current: this[event.target.name] })
+    this.setState({ current: this[event.target.name] });
+  }
+
+  displaySearchResults = (searchInput) => {
+    const searchResults = this.state.current.filter(article => article.headline.toLowerCase().includes(searchInput));
+    this.setState({ current: searchResults});
   }
 
   render () {
-    console.log(local)
     return (
       <div className="app">
         <Menu changeNewsFeed={this.changeNewsFeed} />
           <div className="content-main">
-            <SearchForm />
+          <SearchForm displaySearchResults={this.displaySearchResults} />
             <NewsContainer news={this.state.current} />
-        </div>
+          </div>
       </div>
     );
   }
