@@ -3,7 +3,7 @@
 What's News is an application designed to display your current news. This application was built with `create-react-app` and is my first introduction to developing with the React framework.
 
 ### Summary
-This project is an introduction to working with React. The focus is on understanding how to pass information through props, break an application down into logical componenets and write organized JSX. It is also an introduction to testing in the React frameowrk. Snapshot tests, as well as testing of methods, and changes in state, were utilized.
+The focus of this project is on understanding how to pass information through props, break an application down into logical componenets and write organized JSX. It is also an introduction to testing in the React framework. Snapshot tests, as well as testing of methods, and changes in state, were utilized.
 
 ### Languages & Technologies Used
 
@@ -27,7 +27,7 @@ Once you have cloned the repo, change into the directory and install the library
 npm install
 ```
 
-To view the Guest Minder application, run:
+To view the Whats New? application, run:
 
 ```
 npm start
